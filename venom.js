@@ -11,6 +11,6 @@ venom
 
 function start(client) {
 	client.onMessage((message) => {
-		console.log(message.body);
+		console.log(message);
 	});
 }
